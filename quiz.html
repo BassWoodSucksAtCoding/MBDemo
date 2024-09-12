@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="New Text Document.css">
+</head>
+
+<body>
+    <header>
+        <div class="background-container">
+            <img src="background.jpg" alt="Background Image" class="background-img">
+            <img src="cover.webp" alt="Mythbuster Science Logo" class="logo">
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="myths.html">Myths</a></li>
+            <li><a href="quiz.html">Quizzes</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Quiz</h3>
+        <p>Now that you’ve explored these myths and the truths behind them, test your understanding with this quick quiz!</p> 
+        <p>Answer each question by selecting the correct option (A, B, C, or D).</p>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What vegetable is often claimed to improve your vision?</p>
+                <input type="radio" id="q1a" name="q1" value="A">
+                <label for="q1a">A. Broccoli</label><br>
+                <input type="radio" id="q1b" name="q1" value="B">
+                <label for="q1b">B. Carrots</label><br>
+                <input type="radio" id="q1c" name="q1" value="C">
+                <label for="q1c">C. Spinach</label><br>
+                <input type="radio" id="q1d" name="q1" value="D">
+                <label for="q1d">D. Peppers</label><br>
+                <p class="feedback" id="feedback1"></p>
+            </div>
+
+            <div class="question">
+                <p>2. What does the myth suggest about lightning strikes?</p>
+                <input type="radio" id="q2a" name="q2" value="A">
+                <label for="q2a">A. Scientific theory</label><br>
+                <input type="radio" id="q2b" name="q2" value="B">
+                <label for="q2b">B. Folklore</label><br>
+                <input type="radio" id="q2c" name="q2" value="C">
+                <label for="q2c">C. Superstition</label><br>
+                <input type="radio" id="q2d" name="q2" value="D">
+                <label for="q2d">D. Fact</label><br>
+                <p class="feedback" id="feedback2"></p>
+            </div>
+
+            <div class="question">
+                <p>3. What substance is commonly believed to cause hyperactivity in children?</p>
+                <input type="radio" id="q3a" name="q3" value="A">
+                <label for="q3a">A. Salt</label><br>
+                <input type="radio" id="q3b" name="q3" value="B">
+                <label for="q3b">B. Sugar</label><br>
+                <input type="radio" id="q3c" name="q3" value="C">
+                <label for="q3c">C. Water</label><br>
+                <input type="radio" id="q3d" name="q3" value="D">
+                <label for="q3d">D. Fat</label><br>
+                <p class="feedback" id="feedback3"></p>
+            </div>
+
+            <div class="question">
+                <p>4. What percentage of the brain is commonly believed to be unused?</p>
+                <input type="radio" id="q4a" name="q4" value="A">
+                <label for="q4a">A. 10%</label><br>
+                <input type="radio" id="q4b" name="q4" value="B">
+                <label for="q4b">B. 40%</label><br>
+                <input type="radio" id="q4c" name="q4" value="C">
+                <label for="q4c">C. 50%</label><br>
+                <input type="radio" id="q4d" name="q4" value="D">
+                <label for="q4d">D. 90%</label><br>
+                <p class="feedback" id="feedback4"></p>
+            </div>
+
+            <div class="question">
+                <p>5. What ability do bats use for navigation and hunting?</p>
+                <input type="radio" id="q5a" name="q5" value="A">
+                <label for="q5a">A. Echolocation</label><br>
+                <input type="radio" id="q5b" name="q5" value="B">
+                <label for="q5b">B. Magnetoreception</label><br>
+                <input type="radio" id="q5c" name="q5" value="C">
+                <label for="q5c">C. Ultrasound</label><br>
+                <input type="radio" id="q5d" name="q5" value="D">
+                <label for="q5d">D. Infrasound</label><br>
+                <p class="feedback" id="feedback5"></p>
+            </div>
+
+            <div class="question">
+                <p>6. What sense helps us understand body position and movement without looking?</p>
+                <input type="radio" id="q6a" name="q6" value="A">
+                <label for="q6a">A. Proprioception</label><br>
+                <input type="radio" id="q6b" name="q6" value="B">
+                <label for="q6b">B. Nociception</label><br>
+                <input type="radio" id="q6c" name="q6" value="C">
+                <label for="q6c">C. Thermoception</label><br>
+                <input type="radio" id="q6d" name="q6" value="D">
+                <label for="q6d">D. Olfaction</label><br>
+                <p class="feedback" id="feedback6"></p>
+            </div>
+
+            <div class="question">
+                <p>7. What is the primary function of sweating?</p>
+                <input type="radio" id="q7a" name="q7" value="A">
+                <label for="q7a">A. Temperature regulation</label><br>
+                <input type="radio" id="q7b" name="q7" value="B">
+                <label for="q7b">B. Waste removal</label><br>
+                <input type="radio" id="q7c" name="q7" value="C">
+                <label for="q7c">C. Protection</label><br>
+                <input type="radio" id="q7d" name="q7" value="D">
+                <label for="q7d">D. Absorption</label><br>
+                <p class="feedback" id="feedback7"></p>
+            </div>
+
+            <div class="question">
+                <p>8. What makes the Great Wall of China challenging to see from space?</p>
+                <input type="radio" id="q8a" name="q8" value="A">
+                <label for="q8a">A. Color</label><br>
+                <input type="radio" id="q8b" name="q8" value="B">
+                <label for="q8b">B. Length</label><br>
+                <input type="radio" id="q8c" name="q8" value="C">
+                <label for="q8c">C. Height</label><br>
+                <input type="radio" id="q8d" name="q8" value="D">
+                <label for="q8d">D. Shape</label><br>
+                <p class="feedback" id="feedback8"></p>
+            </div>
+
+            <div class="question">
+                <p>9. What is the modern understanding of taste receptor distribution on the tongue?</p>
+                <input type="radio" id="q9a" name="q9" value="A">
+                <label for="q9a">A. Uniform</label><br>
+                <input type="radio" id="q9b" name="q9" value="B">
+                <label for="q9b">B. Sweet at the tip</label><br>
+                <input type="radio" id="q9c" name="q9" value="C">
+                <label for="q9c">C. Bitter at the back</label><br>
+                <input type="radio" id="q9d" name="q9" value="D">
+                <label for="q9d">D. Salty at the sides</label><br>
+                <p class="feedback" id="feedback9"></p>
+            </div>
+
+            <div class="question">
+                <p>10. How long does swallowed gum actually stay in the digestive system?</p>
+                <input type="radio" id="q10a" name="q10" value="A">
+                <label for="q10a">A. Few days</label><br>
+                <input type="radio" id="q10b" name="q10" value="B">
+                <label for="q10b">B. 7 years</label><br>
+                <input type="radio" id="q10c" name="q10" value="C">
+                <label for="q10c">C. 1 year</label><br>
+                <input type="radio" id="q10d" name="q10" value="D">
+                <label for="q10d">D. 6 months</label><br>
+                <p class="feedback" id="feedback10"></p>
+            </div>
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <p id="totalScore"></p>
+        </form>
+    </main>
+
+    <script>
+      const correctAnswers = ["B", "B", "B", "A", "A", "A", "A", "A", "A", "A"];
+
+function submitQuiz() {
+    let score = 0;
+    let totalQuestions = correctAnswers.length;
+
+    // Check each question and update score
+    for (let i = 1; i <= totalQuestions; i++) {
+        let selectedAnswer = document.querySelector(`input[name="q${i}"]:checked`);
+        let feedback = document.getElementById(`feedback${i}`);
+
+        if (selectedAnswer) {
+            if (selectedAnswer.value === correctAnswers[i - 1]) {
+                score++;
+                feedback.textContent = "Correct!";
+                feedback.style.color = "green";
+            } else {
+                feedback.textContent = `Incorrect! The correct answer is ${correctAnswers[i - 1]}.`;
+                feedback.style.color = "red";
+            }
+        } else {
+            feedback.textContent = "You didn't select an answer!";
+            feedback.style.color = "red";
+        }
+    }
+
+    let totalScore = document.getElementById("totalScore");
+    let percentage = (score / totalQuestions) * 100;
+
+    // Display total score and performance feedback
+    totalScore.textContent = `Your total score is ${score} out of ${totalQuestions}. (${percentage.toFixed(2)}%)`;
+
+    let performanceMessage = "";
+    if (percentage > 90) {
+        performanceMessage = "Excellent performance!";
+    } else if (percentage > 80) {
+        performanceMessage = "Great performance!";
+    } else if (percentage > 65) {
+        performanceMessage = "Average performance, need to improve.";
+    } else {
+        performanceMessage = "Very poor performance, needs major improvement.";
+    }
+
+    totalScore.textContent += ` ${performanceMessage} You may read the myths again and retake the test.`;
+}
+
+
+    </script>
+      <footer>
+        <p>© 2024 Mythbuster Science. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
